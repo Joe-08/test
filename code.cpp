@@ -1,8 +1,13 @@
 #include <iostream>
 using namespace std;
 
+void funcion() {
+  cout << "Hola Mundo" << endl;
+  cout << "Hola Mundo" << endl;
+}
+
 int main()
 {
-  cout << "Hola Mundo" << endl;
+  funcion();
   return 0;
 }
